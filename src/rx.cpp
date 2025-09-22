@@ -234,11 +234,11 @@ void Receiver::loop_iter(void)
             continue;
         }
 
-        if (self_injected)
-        {
-            //ignore self injected frames
-            continue;
-        }
+        // if (self_injected)
+        // {
+        //    //ignore self injected frames
+        //    continue;
+        // }
 
         if (flags & IEEE80211_RADIOTAP_F_FCS)
         {
